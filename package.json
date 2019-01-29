@@ -1,6 +1,6 @@
 {
   "name": "language-systemrdl",
-  "version": "0.4.0",
+  "version": "0.0.0",
   "author": "Aliaksei Chapyzhenka",
   "description": "SystemRDL language support for Atom",
   "license": "MIT",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:drom/language-systemrdl.git"
+    "url": "https://github.com/drom/language-systemrdl.git"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
