@@ -1,6 +1,6 @@
 {
   "name": "language-systemrdl",
-  "version": "0.1.0",
+  "version": "0.1.0--allow-same-version",
   "author": "Aliaksei Chapyzhenka",
   "description": "SystemRDL language support for Atom",
   "license": "MIT",
