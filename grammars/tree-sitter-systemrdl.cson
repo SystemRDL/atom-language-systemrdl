@@ -25,8 +25,18 @@ scopes:
   number: 'constant.numeric.decimal'
   boolean_literal: 'constant.language.boolean'
   string_literal: 'string'
+  'instance_ref_element > id': 'variable.other.object'
 
   primary_literal: 'constant.language.boolean'
+
+  accesstype_literal: 'keyword.control'
+  onreadtype_literal: 'keyword.control'
+  onwritetype_literal: 'keyword.control'
+  addressingtype_literal: 'keyword.control'
+  precedencetype_literal: 'keyword.control'
+
+  prop_keyword: 'keyword.control'
+
 
   # component_primary_type: 'support.storage.type'
   component_type: 'support.storage.type'
@@ -40,8 +50,6 @@ scopes:
 
 
   '";"': 'punctuation.terminator.statement'
-
-  '"->"': 'keyword.operator.member'
 
   '"{"': 'punctuation.section.block.begin.bracket.curly'
   '"}"': 'punctuation.section.block.end.bracket.curly'
@@ -61,3 +69,13 @@ scopes:
   '"type"': 'keyword.control'
   '"component"': 'keyword.control'
   prop_mod: 'keyword.control'
+
+  binary_operator: 'keyword.operator'
+  unary_operator: 'keyword.operator'
+  '"->"': 'keyword.operator.member'
+  '"="': 'keyword.operator'
+  '"@"': 'keyword.operator'
+  '"+="': 'keyword.operator'
+  '"%="': 'keyword.operator'
+
+  'explicit_component_inst > id': 'entity.name.function'
