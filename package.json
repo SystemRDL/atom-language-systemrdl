@@ -10,7 +10,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drom/language-systemrdl.git"
+    "url": "git+ssh://git@github.com:drom/language-systemrdl.git"
+
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
