@@ -20,10 +20,13 @@ comments:
 
 scopes:
   comment: 'comment.block'
+
   id: 'constant.variable'
   number: 'constant.numeric.decimal'
   boolean_literal: 'constant.language.boolean'
   string_literal: 'string'
+
+  primary_literal: 'constant.language.boolean'
 
   # component_primary_type: 'support.storage.type'
   component_type: 'support.storage.type'
@@ -32,6 +35,8 @@ scopes:
   data_type: 'support.storage.type'
   property_data_type: 'support.storage.type'
   # struct_type: 'support.storage.type'
+  'explicit_component_inst > id': 'support.storage.type'
+  'basic_data_type > id': 'support.storage.type'
 
 
   '";"': 'punctuation.terminator.statement'
