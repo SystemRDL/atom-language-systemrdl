@@ -1,0 +1,31 @@
+{
+  "name": "language-systemrdl",
+  "version": "0.1.0",
+  "author": "Aliaksei Chapyzhenka",
+  "description": "SystemRDL language support for Atom",
+  "license": "MIT",
+  "main": "lib/language-systemrdl.js",
+  "keywords": [
+    "tree-sitter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/language-systemrdl.git"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "tree-sitter-systemrdl": "^0.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/drom/language-systemrdl/issues"
+  },
+  "homepage": "https://github.com/drom/language-systemrdl#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
