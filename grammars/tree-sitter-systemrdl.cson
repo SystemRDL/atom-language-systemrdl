@@ -16,7 +16,7 @@ folds: [
 ]
 
 comments:
-  start: '// '
+  start: '//'
 
 scopes:
   comment: 'comment.block'
@@ -77,5 +77,7 @@ scopes:
   '"@"': 'keyword.operator'
   '"+="': 'keyword.operator'
   '"%="': 'keyword.operator'
+
+  template: 'keyword.control.directive'
 
   'explicit_component_inst > id': 'entity.name.function'
