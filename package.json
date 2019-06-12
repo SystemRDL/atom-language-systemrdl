@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/drom/language-systemrdl.git"
+    "url": "https://github.com/SystemRDL/atom-language-systemrdl.git"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
@@ -19,9 +19,9 @@
     "tree-sitter-systemrdl": "^0.4.0"
   },
   "bugs": {
-    "url": "https://github.com/drom/language-systemrdl/issues"
+    "url": "https://github.com/SystemRDL/atom-language-systemrdl/issues"
   },
-  "homepage": "https://github.com/drom/language-systemrdl#readme",
+  "homepage": "https://github.com/SystemRDL/atom-language-systemrdl#readme",
   "directories": {
     "lib": "lib"
   },
