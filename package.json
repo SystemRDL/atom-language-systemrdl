@@ -16,7 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "tree-sitter-systemrdl": "^0.4.0"
+    "tree-sitter-systemrdl": "^0.4.2"
   },
   "bugs": {
     "url": "https://github.com/SystemRDL/atom-language-systemrdl/issues"
